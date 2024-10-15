@@ -1,0 +1,202 @@
+#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+    position: relative;
+    top: 10px;
+    height: 60px;
+    /* background-color: rgb(193, 134, 134); */
+    width: 100%;
+    display: flex;
+    align-content: flex-end;
+}
+#website {
+    height: 60px;
+    /* background-color: rgb(255, 255, 255); */
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: last baseline;
+    margin-left: 50px;
+}
+#website img {
+    height: 40px;
+    width: auto;
+}
+#name {
+    width: 70%;
+    height: 400px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#name h1 {
+    margin-bottom: -15px;
+}
+#profileSummary {
+    width: 50%;
+    height: auto;
+    /* background-color: rgb(161, 147, 147); */
+    margin-left: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+}
+#profileSummary p {
+    color: #5b5b5b;
+    text-align: justify;
+}
+#profileSummary img {
+    width: 50px;
+    height: auto;
+}
+
+#profileImage {
+    width: 45%;
+    height: auto;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+#portfolio {
+    width: 90%;
+    height: 600px;
+    /* background-color:aquamarine ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titlePortfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#portfolio h1 {
+    margin-bottom: -15px;
+}
+#portfolio p {
+    color: #5b5b5b;
+    margin-bottom: 50px;
+}
+#containerPortfolio {
+    width: 70%;
+    height: 450px;
+    /* background-color: #5b5b5b; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-radius: 20px;
+    padding: 10px;
+    scrollbar-color: #d4d4d4 #ffffff;
+}
+.container {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    margin-right: 50px;
+    flex-shrink: 0;
+    box-shadow: 10px 10px 10px 10px #5b5b5b;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.container:first-child {
+    margin-left: 400px;
+}
+.container img {
+    object-fit: contain;
+    height: 200px;
+    width: auto;
+}
+.container:hover {
+    transform: scale(1.2);
+}
+/* #containerPortfolio::-webkit-scrollbar {
+    width: 8px;
+}
+#containerPortfolio::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 50px;
+} */
+
+#skills {
+    width: 90%;
+    height: 600px;
+    /* background-color:aquamarine ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#skillsPortfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#skills h1 {
+    margin-bottom: -15px;
+}
+#skills p {
+    color: #5b5b5b;
+    margin-bottom: 50px;
+}
+#skillsContainer {
+    width: 70%;
+    height: 450px;
+    /* background-color: #5b5b5b; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-radius: 20px;
+    padding: 10px;
+    scrollbar-color: #d4d4d4 #ffffff;
+}
+.skillscontainer {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    margin-right: 50px;
+    flex-shrink: 0;
+    box-shadow: 10px 10px 10px 10px #5b5b5b;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.skillscontainer:first-child {
+    margin-left: 400px;
+}
+.skillscontainer img {
+    object-fit: contain;
+    height: 200px;
+    width: auto;
+}
+.skillscontainer:hover {
+    transform: scale(1.2);
+}
+#about {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+#about p {
+    text-align: center;
+    color: #5b5b5b;
+}
+#about h1 {
+    margin-bottom: -15px;
+}
